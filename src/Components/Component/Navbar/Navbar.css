@@ -1,0 +1,64 @@
+.mobileNavLogo{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+/* Slider Navbar */
+
+  
+  .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    left: 0;
+    background: white;
+    overflow-x: hidden;
+    transition: all .3s ease-in-out;
+  
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .nonewnotify{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Tooglrbar {
+    gap: 10px;
+    display: flex;
+  }
+  .Slider_content_center {
+    display: grid;
+    justify-content: flex-start;
+    padding-left: 20px;
+    font-size: 16px;
+  }
+  .Slider_content_center  a  span{
+     margin-right: 10px;
+  }
+  .openbtn {
+    border-radius: 4px;
+    height: 25px;
+    width: 27px;
+    background-color: transparent;
+    color: #555555;
+    border: 1px solid #555555;
+  }
+  @media screen and (max-width: 993px) {
+
+    #mySidebar {
+      width: 0px;
+    }
+ 
+  }
+
+  @media screen and (max-width: 993px){
+    .navbar_logo_image{
+        width: 40px;
+        height: 40px;
+          }
+  }
+  /* end */
