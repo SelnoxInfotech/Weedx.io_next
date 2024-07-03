@@ -3,7 +3,7 @@ import React from 'react';
 import { Outlet } from 'react-router-dom';
 import Navbar from "../Components/Component/Navbar/Navbar"
 import Grid from '@mui/material/Grid';
-import Footer from '@/Components/Component/Footer/Footer';
+// import Footer from '@/Components/Component/Footer/Footer';
 const Layout1 = () => {
   return (
     <div >
@@ -13,7 +13,7 @@ const Layout1 = () => {
             <Outlet />
         </Grid>
     </div>
-    <Footer/>
+    {/* <Footer/> */}
 
 </div>
 

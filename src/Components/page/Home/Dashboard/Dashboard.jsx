@@ -94,14 +94,14 @@ export default function Dashboard() {
                             </div>
                             <div className="about_text">
                                 <h3 className="acard_title">
-                                    Online Ordering
+                                  {`  Online Ordering`}
                                 </h3>
                                 <p className="acard_description">
-                                    Experience the convenience of ordering your
+                                  {`  Experience the convenience of ordering your
                                     favorite cannabis products online. Browse a
                                     wide selection, place your order, and have it
                                     delivered or ready for pickup with just a few
-                                    clicks.
+                                    clicks.`}
                                 </p>
                             </div>
                         </div>
@@ -118,14 +118,14 @@ export default function Dashboard() {
                             </div>
                             <div className="about_text">
                                 <h3 className="acard_title">
-                                    Delivery Services
+                                    {`Delivery Services`}
                                 </h3>
                                 <p className="acard_description">
-                                    Enjoy the ease of cannabis delivery right
+                                 {`   Enjoy the ease of cannabis delivery right
                                     to your doorstep. Whether you're seeking
                                     flowers, edibles, or concentrates, our
                                     delivery services ensure a hassle-free
-                                    experience
+                                    experience`}
                                 </p>
                             </div>
                         </div>
@@ -145,12 +145,12 @@ export default function Dashboard() {
                                     Dispensary Listings
                                 </h3>
                                 <p className="acard_description">
-                                    Explore our comprehensive directory of
+                                    {`Explore our comprehensive directory of
                                     cannabis dispensaries. Each listing
                                     provides essential details, including
                                     addresses, operating hours, and
                                     customer reviews, to help you make
-                                    informed choices.
+                                    informed choices.`}
                                 </p>
                             </div>
                         </div>
@@ -167,14 +167,14 @@ export default function Dashboard() {
                             </div>
                             <div className="about_text">
                                 <h3 className="acard_title">
-                                    Retailer Listings
+                                   {` Retailer Listings`}
                                 </h3>
                                 <p className="acard_description">
-                                    Our retailer listings showcase the best
+                                    {`Our retailer listings showcase the best
                                     places to explore, purchase, and learn
                                     about cannabis. Discover the perfect
                                     spot to meet your cannabis
-                                    requirements
+                                    requirements`}
                                 </p>
                             </div>
                         </div>
